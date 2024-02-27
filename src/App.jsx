@@ -14,6 +14,7 @@ const App = () => {
           <Route path="/section/:section" element={<ItemListContainer />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/item/:id" element={<ItemDetailContainer />} />
+          <Route path="*" element={<h1>Error 404 :o </h1>} />
         </Routes>
       </BrowserRouter>
     </>
